@@ -1,0 +1,20 @@
+// Lean automation for a Python-first repo: extend with deploy, config sync, etc.
+
+plugins {
+    id 'base'
+}
+
+tasks.register('checkPythonEnv', Exec) {
+    group = 'verification'
+    description = 'Verify python3 is on PATH (expand for conda run appraisal-ai pytest).'
+    commandLine 'python3', '--version'
+    ignoreExitValue = false
+}
+
+tasks.register('echoStructure', Exec) {
+    group = 'help'
+    description = 'Print top-level layout reminder.'
+    commandLine 'echo', 'See README.md for src/, config/, docs/, scripts/, tests/'
+}
+
+defaultTasks 'checkPythonEnv'

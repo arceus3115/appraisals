@@ -1,0 +1,9 @@
+# Mamba/Conda: mamba env create -f environment.yml && mamba activate appraisal-ai
+name: appraisal-ai
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11,<3.13
+  - pip
+  - pip:
+      - -e .[dev]
