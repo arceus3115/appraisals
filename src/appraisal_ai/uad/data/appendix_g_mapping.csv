@@ -1,0 +1,7 @@
+canonical_key,legacy_xpath,uad36_xpath,cardinality,transform,severity,notes
+subject_address_line,/LegacyUADExample/SubjectProperty/AddressLineText,/UAD36Example/Collateral/SubjectProperty/AddressLineText,1:1,identity,lossless,Starter row for integration tests; replace with Appendix G rows when vendored.
+subject_city_name,/LegacyUADExample/SubjectProperty/CityName,/UAD36Example/Collateral/SubjectProperty/CityName,1:1,identity,lossless,
+subject_state_code,/LegacyUADExample/SubjectProperty/StateCode,/UAD36Example/Collateral/SubjectProperty/StateCode,1:1,identity,lossless,
+subject_postal_code,/LegacyUADExample/SubjectProperty/PostalCode,/UAD36Example/Collateral/SubjectProperty/PostalCode,1:1,identity,lossless,
+appraisal_effective_date,/LegacyUADExample/Appraisal/AppraisalEffectiveDate,/UAD36Example/Collateral/Valuation/EffectiveDate,1:1,identity,lossless,
+opinion_of_market_value_amount,/LegacyUADExample/Appraisal/OpinionOfMarketValueAmount,/UAD36Example/Collateral/Valuation/MarketValueAmount,1:1,identity,lossless,

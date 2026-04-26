@@ -12,16 +12,19 @@ license = { text = "Proprietary" }
 authors = [{ name = "AppraisalAI" }]
 dependencies = [
   "httpx>=0.27",
+  "lxml>=5.0",
   "pydantic>=2.5",
   "pydantic-settings>=2.1",
 ]
 
 [project.optional-dependencies]
 dev = [
+  "openpyxl>=3.1",
   "pytest>=8.0",
   "pytest-cov>=4.1",
   "ruff>=0.4",
   "mypy>=1.8",
+  "types-lxml>=2024.0",
 ]
 
 [project.scripts]
@@ -29,6 +32,9 @@ appraisal-ai = "appraisal_ai.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.package-data]
+"appraisal_ai.uad" = ["data/*.csv"]
 
 [tool.ruff]
 line-length = 100

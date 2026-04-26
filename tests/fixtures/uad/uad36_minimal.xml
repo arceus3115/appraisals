@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UAD36Example>
+  <Collateral>
+    <SubjectProperty>
+      <AddressLineText>200 Oak Ave</AddressLineText>
+      <CityName>Capital City</CityName>
+      <StateCode>MO</StateCode>
+      <PostalCode>65101</PostalCode>
+    </SubjectProperty>
+    <Valuation>
+      <EffectiveDate>2026-02-01</EffectiveDate>
+      <MarketValueAmount>425000</MarketValueAmount>
+    </Valuation>
+  </Collateral>
+</UAD36Example>

@@ -1,0 +1,3 @@
+# Replace with the GSE document revision date when you vendor Appendix G or related artifacts.
+# Example: Appendix G spreadsheet dated 2026-03-10 (illustrative only).
+not_vendored

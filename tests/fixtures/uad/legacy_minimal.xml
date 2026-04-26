@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LegacyUADExample>
+  <SubjectProperty>
+    <AddressLineText>100 Elm St</AddressLineText>
+    <CityName>Springfield</CityName>
+    <StateCode>IL</StateCode>
+    <PostalCode>62701</PostalCode>
+  </SubjectProperty>
+  <Appraisal>
+    <AppraisalEffectiveDate>2026-01-15</AppraisalEffectiveDate>
+    <OpinionOfMarketValueAmount>350000</OpinionOfMarketValueAmount>
+  </Appraisal>
+</LegacyUADExample>
